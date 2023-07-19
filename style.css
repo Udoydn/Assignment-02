@@ -108,3 +108,223 @@
 
 
 /* navbar end */
+
+
+
+
+
+
+
+
+
+
+
+/* banner-start */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-info {
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-1 {
+    font-size: var(--large-font);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.gradient-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading-2 {
+    font-size: var(--medium-font);
+    font-weight: 700;
+}
+
+.No-Download {
+    margin: 10px 0px;
+}
+
+.banner-img {
+    margin-right: 13rem;
+}
+
+/* banner end */
+
+/* Online-Games-container start*/
+
+.Online-Games-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 60vh;
+}
+
+.games-info {
+    text-align: center;
+}
+
+.games-info h2 {
+    font-size: var(--medium-font);
+    margin: 20px 0;
+}
+
+.games-imgs-conatainer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1400px;
+}
+
+.games-imgs {
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 50px 15px;
+    gap: 50px;
+}
+
+.game-img {
+    position: relative;
+    display: inline-block;
+}
+
+.game-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.game-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 35, 35, 0.5);
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-img:hover {
+    border: 4px solid #FF42A5;
+    border-radius: 20px;
+}
+
+.game-img:hover .overlay {
+    opacity: 1;
+}
+
+.game-img .play-icon {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+/* Online-Games-container end*/
+
+
+/* Games-container part start */
+
+.Games-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-info {
+    width: 350px;
+    margin-right: 20vh;
+    text-align: right;
+}
+
+.games-img {
+    position: relative;
+    display: inline-block;
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.foreground-image {
+    position: absolute;
+    left:-80px;
+    top: 450px;
+    width: 200px;
+    z-index: 2;
+
+}
+
+
+
+
+
+
+
+
+
+/* Games-container part end */
+
+
+
+
+.multi-games {
+    background-color: #f6f3f3;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-online-games {
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.games-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 5px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.games-card:hover {
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
+
+.games-card h3:hover {
+    color: #F948B2;
+}
+
+.games-card h3 {
+    color: #000000;
+}
