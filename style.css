@@ -404,11 +404,6 @@
 
 @media screen and (max-width:425px) {
 
-    /* navbar start */
-
-
-
-
     .navbar-container ,
     .games-imgs-conatainer ,
     .Games-container 
@@ -428,9 +423,6 @@
     .banner-info {
         height: 400px;
     }
-
-
-
 
 
     .games-imgs-conatainer {
