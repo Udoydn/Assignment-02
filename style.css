@@ -328,3 +328,167 @@
 .games-card h3 {
     color: #000000;
 }
+
+
+
+
+
+/* footer start */
+
+.main-footer {
+    background: #050331;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 70px 0;
+}
+
+.footer-heading h3 {
+    color: #fff;
+    font-size: var(--medium-font);
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-link a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: var(--small-font);
+
+}
+
+.footer-social-media i {
+    color: #ffffff;
+    font-size: var(--medium-font);
+    margin: 40px;
+
+}
+
+.footer-Policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-Policy p {
+    color: #c8c8c8;
+    margin: 0 30px 30px 0;
+}
+
+.copyright {
+    margin: 5px 0 20px 0;
+    color: #cccccc;
+    text-align: center;
+}
+
+/* footer end */
+
+
+@media screen and (max-width:425px) {
+
+    /* navbar start */
+
+
+
+
+    .navbar-container ,
+    .games-imgs-conatainer ,
+    .Games-container 
+    {
+        flex-direction: column;
+    }
+
+    .banner-container 
+    {
+        flex-direction: column-reverse;
+    }
+
+
+    
+
+
+    .banner-info {
+        height: 400px;
+    }
+
+
+
+
+
+    .games-imgs-conatainer {
+        width: 100%;
+    }
+
+
+    .footer-container{
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .footer-link  ,
+    .footer-Policy ,
+    
+    {
+        flex-wrap: wrap;
+    }
+
+    .footer-link a ,
+    .footer-Policy p{
+        padding: 10px;
+        text-align: center;
+    }
+
+
+
+
+    .nav-info {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+    .nav-info a {
+        margin-top: 20px;
+    }
+
+
+
+
+
+    /* navbar end */
+
+
+
+
+
+
+    .free-online-games {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, fr);
+    }
+
+
+}
