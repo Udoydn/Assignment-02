@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+:root {
+    --small-font: 1.2rem;
+    --medium-font: 2.8rem;
+    --large-font: 6rem;
+    --font-background-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --btn-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+
+
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: var(--btn-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.fa-brands {
+    margin-left: 10px;
+    color: red;
+}
+
+.fa-brands-2 {
+    margin-left: 10px;
+    color: black;
+}
+
+.fa-solid {
+    color: #F948B2;
+}
+
+.primary-color {
+    color: #F948B2;
+}
+
+
+
+/* navbar start */
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--medium-font);
+}
+
+.navbar-logo p {
+    font-size: var(--medium-font);
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+.nav-info {
+    display: flex;
+    align-items: center;
+}
+
+.nav-info a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    font-size: var(--small-font);
+}
+
+.nav-info .follow-us {
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 20px 30px;
+}
+
+
+/* navbar end */
