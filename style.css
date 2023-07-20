@@ -125,18 +125,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .banner-info {
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 50%;
     height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 
 .heading-1 {
     font-size: var(--large-font);
@@ -160,7 +162,7 @@
 }
 
 .banner-img {
-    margin-right: 13rem;
+    width: 50%;
 }
 
 /* banner end */
@@ -173,6 +175,7 @@
 
 .games-info {
     text-align: center;
+    
 }
 
 .games-info h2 {
@@ -245,7 +248,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin: 100px auto;
 }
 
 .game-info {
@@ -267,7 +270,7 @@
 
 .foreground-image {
     position: absolute;
-    left:-80px;
+    left: -80px;
     top: 450px;
     width: 200px;
     z-index: 2;
@@ -403,19 +406,31 @@
 
 @media screen and (max-width:425px) {
 
-    .navbar-container ,
-    .games-imgs-conatainer ,
-    .Games-container 
-    {
+    .navbar-container,
+    .games-imgs-conatainer,
+    .Games-container {
         flex-direction: column;
     }
-    
-    .banner-container 
-    {
+
+    .banner-container {
         flex-direction: column-reverse;
     }
-    
-    
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+
+    .banner-info {
+        text-align: center;
+        width: 100%;
+
+    }
+
     .nav-info {
         flex-direction: column;
     }
@@ -424,64 +439,86 @@
     .nav-info a {
         margin-top: 20px;
     }
-    
 
-
-    .banner-info {
-        height: 400px;
-    }
 
 
     .games-imgs-conatainer {
         width: 100%;
     }
 
+    .games-imgs {
+        margin: 20px 70px;
+    }
+
     .game-info {
-        margin-right: 0vh;
+        margin: 0px 0 50px 5px;
         text-align: center;
     }
 
-    .Online-Games-container {
-       
+    .games-info h2 {
+        font-size: var(--medium-font);
+        margin: 20px 0px;
     }
-    .multi-games{
+
+    .games-info p {}
+
+
+    .games-img {
+        width: 100%;
+    }
+
+    .background-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .foreground-image {
+        position: absolute;
+        left: 26px;
+        top: 250px;
+        width: 100px;
+        z-index: 2;
+    }
+
+    .Online-Games-container {}
+
+    .multi-games {
         display: none;
     }
 
-    .footer-container{
-        width: 450px;
-        margin: 0 auto;
-    }
 
-    .copyright{
-        width: 350px ;
+    .copyright {
+        width: 350px;
         margin: 0 auto;
         text-align: center;
     }
 
-    .footer-link  ,
-    .footer-Policy ,
-    
+    .footer-link,
+    .footer-Policy,
+
     {
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+}
 
-    .footer-link a ,
-    .footer-Policy p{
-        padding: 10px;
-        text-align: center;
-    }
+.footer-link a {
+    padding: 2px;
+}
+
+.footer-Policy p {
+    padding: 5px;
+    text-align: center;
+}
 
 
 
 
 
-    .free-online-games {
+.free-online-games {
 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, fr);
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, fr);
+}
 
 
 }
